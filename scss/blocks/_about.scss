@@ -1,8 +1,10 @@
 .about{
-    background-image: url("../../img/about/eso0932a.jpg");
+    background-image: url("../img/about/eso0932a.jpg");
     background-size: 100%;
     padding-bottom: 100px;
+    padding-top: 100px;
     display: flex;
+    justify-content: space-around;
     .left{
         padding-top: 200px;
         padding-left: 50px;
@@ -35,6 +37,146 @@
     }
 }
 
+@media(max-width: 900px){
+
+    .about{
+        background-image: url("../img/about/eso0932a.jpg");
+        background-size: 100%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .left{
+            padding-top: 0px;
+            padding-left: 50px;
+            .hello__world{
+                width: 400px;
+                height: 50px;
+                background-color: rgba(0, 255, 255, 0.37);
+                padding: 10px;
+                display: flex;
+                .emoj{
+                    animation: emoj_s 2.5s infinite;
+                    width: 25px;
+                    height: 25px;
+                }
+                .hi{
+                    color: white;
+                }
+            }
+            h2{
+                color: white;
+                width: 500px;
+            }
+            .about__p{
+                margin-top: 10px;
+                color: white;
+                width: 550px;
+                font-size: 10px;
+            }
+            
+        }
+        img{
+            width: 500px;
+        }
+    }
+}
+
+@media(max-width: 900px){
+
+    .about{
+        background-image: url("../img/about/eso0932a.jpg");
+        background-size: 100%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .left{
+            padding-top: 0px;
+            padding-left: 50px;
+            .hello__world{
+                width: 400px;
+                height: 50px;
+                background-color: rgba(0, 255, 255, 0.37);
+                padding: 10px;
+                display: flex;
+                .emoj{
+                    animation: emoj_s 2.5s infinite;
+                    width: 25px;
+                    height: 25px;
+                }
+                .hi{
+                    color: white;
+                }
+            }
+            h2{
+                color: white;
+                width: 500px;
+            }
+            .about__p{
+                margin-top: 10px;
+                color: white;
+                width: 550px;
+                font-size: 10px;
+            }
+            
+        }
+        img{
+            width: 500px;
+        }
+    }
+}
+@media(max-width: 500px){
+
+    .about{
+        background-image: url("../img/about/eso0932a.jpg");
+        background-size: 100%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .left{
+            padding-top: 0px;
+            padding-left: 50px;
+            .hello__world{
+                width: 200px;
+                height: 60px;
+                margin-bottom: 50px;
+                background-color: rgba(0, 255, 255, 0.37);
+                padding: 10px;
+                display: flex;
+                .emoj{
+                    animation: emoj_s 2.5s infinite;
+                    width: 25px;
+                    height: 25px;
+                }
+                .hi{
+                    color: white;
+                }
+            }
+            h2{
+                color: white;
+                width: 200px;
+            }
+            .about__p{
+                margin-top: 10px;
+                color: white;
+                width: 250px;
+                font-size: 10px;
+            }
+            
+        }
+        img{
+            display: none;
+        }
+    }
+}
 
 
 @keyframes emoj_s {

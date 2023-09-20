@@ -1,5 +1,5 @@
 .body {
-  background-color: #070707;
+  background-color: rgb(7, 7, 7);
 }
 
 .pod_cherk {
@@ -116,7 +116,6 @@
     transform: rotate(360deg);
   }
 }
-
 .rot {
   animation: spin 5s linear 0s infinite;
 }
@@ -167,7 +166,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -186,35 +185,31 @@ header {
   background-color: aqua;
   padding: 10px;
 }
-
 header .conteiner__navbar {
   padding: 0;
 }
-
 header .conteiner__navbar .bg__nav {
   background-color: aqua;
 }
-
 header .gaps {
   gap: 50px;
 }
-
 header .navbar-brand {
   margin-right: 50px;
 }
 
 .about {
-  background-image: url("../../img/about/eso0932a.jpg");
+  background-image: url("../img/about/eso0932a.jpg");
   background-size: 100%;
   padding-bottom: 100px;
+  padding-top: 100px;
   display: flex;
+  justify-content: space-around;
 }
-
 .about .left {
   padding-top: 200px;
   padding-left: 50px;
 }
-
 .about .left .hello__world {
   width: 400px;
   height: 50px;
@@ -222,22 +217,18 @@ header .navbar-brand {
   padding: 10px;
   display: flex;
 }
-
 .about .left .hello__world .emoj {
   animation: emoj_s 2.5s infinite;
   width: 25px;
   height: 25px;
 }
-
 .about .left .hello__world .hi {
   color: white;
 }
-
 .about .left h2 {
   color: white;
   width: 500px;
 }
-
 .about .left .about__p {
   margin-top: 10px;
   color: white;
@@ -245,6 +236,139 @@ header .navbar-brand {
   font-size: 10px;
 }
 
+@media (max-width: 900px) {
+  .about {
+    background-image: url("../img/about/eso0932a.jpg");
+    background-size: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about .left {
+    padding-top: 0px;
+    padding-left: 50px;
+  }
+  .about .left .hello__world {
+    width: 400px;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0.37);
+    padding: 10px;
+    display: flex;
+  }
+  .about .left .hello__world .emoj {
+    animation: emoj_s 2.5s infinite;
+    width: 25px;
+    height: 25px;
+  }
+  .about .left .hello__world .hi {
+    color: white;
+  }
+  .about .left h2 {
+    color: white;
+    width: 500px;
+  }
+  .about .left .about__p {
+    margin-top: 10px;
+    color: white;
+    width: 550px;
+    font-size: 10px;
+  }
+  .about img {
+    width: 500px;
+  }
+}
+@media (max-width: 900px) {
+  .about {
+    background-image: url("../img/about/eso0932a.jpg");
+    background-size: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about .left {
+    padding-top: 0px;
+    padding-left: 50px;
+  }
+  .about .left .hello__world {
+    width: 400px;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0.37);
+    padding: 10px;
+    display: flex;
+  }
+  .about .left .hello__world .emoj {
+    animation: emoj_s 2.5s infinite;
+    width: 25px;
+    height: 25px;
+  }
+  .about .left .hello__world .hi {
+    color: white;
+  }
+  .about .left h2 {
+    color: white;
+    width: 500px;
+  }
+  .about .left .about__p {
+    margin-top: 10px;
+    color: white;
+    width: 550px;
+    font-size: 10px;
+  }
+  .about img {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .about {
+    background-image: url("../img/about/eso0932a.jpg");
+    background-size: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about .left {
+    padding-top: 0px;
+    padding-left: 50px;
+  }
+  .about .left .hello__world {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 255, 255, 0.37);
+    padding: 10px;
+    display: flex;
+  }
+  .about .left .hello__world .emoj {
+    animation: emoj_s 2.5s infinite;
+    width: 25px;
+    height: 25px;
+  }
+  .about .left .hello__world .hi {
+    color: white;
+  }
+  .about .left h2 {
+    color: white;
+    width: 200px;
+  }
+  .about .left .about__p {
+    margin-top: 10px;
+    color: white;
+    width: 250px;
+    font-size: 10px;
+  }
+  .about img {
+    display: none;
+  }
+}
 @keyframes emoj_s {
   0% {
     transform: translateZ(0) scale(1);
@@ -268,4 +392,88 @@ header .navbar-brand {
     transform: translateZ(0) scale(1);
   }
 }
-/*# sourceMappingURL=st.css.map */
+.TOOLING {
+  margin: auto;
+  max-width: 700px;
+  margin-top: 100px;
+}
+.TOOLING h2 {
+  text-align: center;
+  border: 2px solid aqua;
+  background-color: #12141d;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+  margin: auto;
+}
+.TOOLING .TOOLING__conteiner {
+  margin-top: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: aqua;
+  padding: 40px;
+}
+.TOOLING .TOOLING__conteiner .TOOLING__block {
+  display: flex;
+  justify-content: space-between;
+  background-color: #12141d;
+  color: aliceblue;
+  width: 170px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+.TOOLING .TOOLING__conteiner .TOOLING__block p {
+  width: 100px;
+}
+
+.rotate {
+  transform: perspective(800px) rotateY(25deg) scale(0.8) rotateX(10deg);
+  box-shadow: 0 60px 123px -25px hsla(225, 2%, 62%, 0.42), 0 35px 75px -35px hsla(225, 2%, 62%, 0.08);
+  width: 500px;
+  height: 309px;
+  transition: all 0.3s ease;
+}
+
+.rotate:hover {
+  transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(10deg) scale(1);
+}
+
+.works {
+  padding: 50px;
+}
+.works .work__txt {
+  padding-top: 50px;
+  color: aliceblue;
+  display: flex;
+}
+.works .work__txt .col_aq {
+  color: aqua;
+}
+.works .works__conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.works .works__conteiner .block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.works .works__conteiner .block h4 {
+  text-align: center;
+  border: 2px solid aqua;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  margin: auto;
+}
+.works .works__conteiner .block p {
+  color: aliceblue;
+  width: 150px;
+  text-align: center;
+}/*# sourceMappingURL=st.css.map */
