@@ -40,3 +40,49 @@
         }
     }
 }
+@media(max-width: 500px){
+    .TOOLING{
+        margin: auto;
+        max-width: 500px;
+        margin-top: 100px;
+        h2{
+            text-align: center;
+            border: 2px solid aqua;
+            background-color: #12141d;
+            color: aliceblue;
+            border-radius: 10px;
+            width: 200px;
+            padding: 20px;
+            margin: auto;
+        }
+        .TOOLING__conteiner{
+            margin-top: 50px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 40px;
+            background-color: aqua;
+            padding: 40px;
+            .TOOLING__block{
+            display: flex;
+            justify-content: space-between;
+            background-color: #12141d;
+            color: aliceblue;
+            width: 170px;
+            height: 40px;
+            padding: 10px;
+            text-align: center;
+            
+                img{
+                    width: 25px;
+                }
+                p{
+                    width: 100px;
+    
+                }
+            }
+        }
+    }
+}
