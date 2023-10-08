@@ -412,6 +412,7 @@ header .navbar-brand {
   border-radius: 50px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
   background-color: aqua;
   padding: 40px;
