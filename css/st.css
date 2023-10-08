@@ -469,7 +469,7 @@ header .navbar-brand {
     text-align: center;
   }
   .TOOLING .TOOLING__conteiner .TOOLING__block img {
-    width: 25px;
+    width: 20px;
   }
   .TOOLING .TOOLING__conteiner .TOOLING__block p {
     width: 100px;
@@ -546,6 +546,10 @@ header .navbar-brand {
     align-items: center;
     justify-content: space-evenly;
   }
+  .works .works__conteiner .block img {
+    width: 300px;
+    height: 200px;
+  }
   .works .works__conteiner .block h4 {
     text-align: center;
     border: 2px solid aqua;
@@ -563,7 +567,26 @@ header .navbar-brand {
 }
 footer {
   margin-top: 100px;
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 footer h2 {
-  color: aliceblue;
+  color: black;
+}
+footer .link {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+footer .link a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .link a img {
+  width: 25px;
 }/*# sourceMappingURL=st.css.map */
